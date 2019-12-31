@@ -21,7 +21,7 @@ The interface includes following pitch detection methods:
 	2. Put the sonic-annotator into your Matlab search path.
 	3. Put the pyinParameters.n3 (in the package) file into your Matlab search path.
 
-This toolbox is suitable for non-commercial use, i.e. academic and research. Citation of the following publications is appreciated.
+Citation of the following publications is appreciated.
 
 - Luwei Yang, Khalid Z. Rajab and Elaine Chew. AVA: A Graphical User Interface for Automatic Vibrato and Portamento Detection and Analysis, In Proc. of the 42nd International Computer Music Conference, 2016.
 - Luwei Yang, Khalid Z. Rajab and Elaine Chew. AVA: An Interactive System for Visual and Quantitative Analyses of Vibrato and Portamento Performance Styles, In Proc. of the 17th International Society for Music Information Retrieval Conference, 2016.
