@@ -1,0 +1,13 @@
+15 May 2002: changed value of dipwidth in period_11.m (1.9 --> 1.85) to 
+avoid error condition.
+
+20 June 2002: plot square root of aperiodicity ratio, rather than ratio 
+itself
+
+1 June 2003: new version of YIN.  The implementation is improved (faster, 
+more robust, bugs corrected).  YIN now processes files a chunk at a 
+time, so it can handle larger files.
+
+28 July 2003: bug fixes.
+
+1 Sept 2003: put sf routines in private/

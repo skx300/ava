@@ -1,0 +1,227 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3849285702" file="/Users/luweiyang/Desktop/PhD/Stage2/AVA_matlab/AVA.prj" location="/Users/luweiyang/Desktop/PhD/Stage2/AVA_matlab" name="AVA" target="target.mlapps" target-name="Package App">
+    <param.appname>AVA</param.appname>
+    <param.authnamewatermark>Luwei Yang</param.authnamewatermark>
+    <param.email>l.yang@qmul.ac.uk</param.email>
+    <param.company>C4DM-QMUL</param.company>
+    <param.icon>${PROJECT_ROOT}/AVA_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/AVA_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/AVA_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/AVA_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>An automatic vibrato and portamento detection and analysis system</param.summary>
+    <param.description>AVA is an automatic vibrato and portamento detection and analysis tool. It accepts raw audio and automatically tracks the vibrato and portamento to display their expressive parameters for inspection and further statistical analysis.
+
+The applications of AVA include music education and expression analysis, and its outputs provide a useful base for expression synthesis and transformation.</param.description>
+    <param.screenshot>${PROJECT_ROOT}/Screenshot/ava_vibrato.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>win64</item>
+      <item>win32</item>
+      <item>maci64</item>
+    </param.platforms>
+    <param.output>/Users/luweiyang/Desktop/PhD/Stage2/AVA_matlab</param.output>
+    <param.guid>1dd61040-d981-4597-99a3-7c21c1568071</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/GUI_Main.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${MATLAB_ROOT}/toolbox/matlab/demos/tabChangedCB.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabPortamento/addPortamentoFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabPortamento/applyLogisticToAllFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabPortamento/delPortamentoFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabPortamento/getPortamentoFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabPortamento/getVFreePitchFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabPortamento/importPortamentoFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabReadAudio/changePitchDetection.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabReadAudio/getPitchCurveFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabReadAudio/readAudioFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabReadAudio/recordAudioFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabVibrato/addVibratoFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabVibrato/changeMethodVibratoParaFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabVibrato/delVibratoFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabVibrato/getVibratoFn.m</file>
+      <file>${PROJECT_ROOT}/Callback-TabVibrato/importVibratoFn.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/BayesRule.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/DecisionTree.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/MidiToFreq.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/deleteOutlier.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/frameFDM3.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/freqToMidi.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/getPassages.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/getPeakTrough.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/getVibratoFreePitch.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/getVibratoParaFDM.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/getVibratoParaFDM2.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/vibratoCandidates.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/vibratoDetectFunc.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/vibratoRateExtent.m</file>
+      <file>${PROJECT_ROOT}/FDM-package/vibratoShape.m</file>
+      <file>${PROJECT_ROOT}/HMM-package/GetObservsMatrixTransition.m</file>
+      <file>${PROJECT_ROOT}/HMM-package/GetTransMatrixTransition.m</file>
+      <file>${PROJECT_ROOT}/HMM-package/NoteAggreBaseline.m</file>
+      <file>${PROJECT_ROOT}/HMM-package/NotePruning.m</file>
+      <file>${PROJECT_ROOT}/HMM-package/ViterbiAlgHMM.m</file>
+      <file>${PROJECT_ROOT}/HMM-package/portamentoDetectFunc.m</file>
+      <file>${PROJECT_ROOT}/Logistic_Modeling-package/createGeneralLogistic6Fit.m</file>
+      <file>${PROJECT_ROOT}/PlayAudio-package/pauseAudioFn.m</file>
+      <file>${PROJECT_ROOT}/PlayAudio-package/playAudioFn.m</file>
+      <file>${PROJECT_ROOT}/PlayAudio-package/resumeAudioFn.m</file>
+      <file>${PROJECT_ROOT}/PlayAudio-package/stopAudioFn.m</file>
+      <file>${PROJECT_ROOT}/export-package/exportAllFeatureParaFn.m</file>
+      <file>${PROJECT_ROOT}/export-package/exportFeatureAnnoFn.m</file>
+      <file>${PROJECT_ROOT}/export-package/exportPitchCurveFn.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/ViterbiAlgPyin.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/getF0CandidatesCost.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/getPitchPyin.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/cumnorm_inplace.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod2.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/minparabolic.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rdiff_inplace.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsmooth.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsum_inplace.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/sf_cleanup.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/sf_format.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/sf_info.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/sf_wave.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/yink.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/yink_for_pyin.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/yin.m</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/yin_for_pyin.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotAudio.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotClearFeature.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotFeatureNum.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotFeaturesArea.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotHighlightFeatureArea.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotLogisticFittingCurve.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotNewFeatureArea.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotPitch.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotPitchFeature.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotPortamentoStatistics.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotVibratoStatistics.m</file>
+      <file>${PROJECT_ROOT}/plot-package/plotZoomInPost.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}/FDM-package/pdNAFDM.mat</file>
+      <file>${PROJECT_ROOT}/FDM-package/pdNRFDM.mat</file>
+      <file>${PROJECT_ROOT}/FDM-package/pdVAFDM.mat</file>
+      <file>${PROJECT_ROOT}/FDM-package/pdVRFDM.mat</file>
+      <file>${PROJECT_ROOT}/aboutText.txt</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/cumnorm_inplace.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/cumnorm_inplace.mexglx</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/cumnorm_inplace.mexmac</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/cumnorm_inplace.mexmaci</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/cumnorm_inplace.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/cumnorm_inplace.mexw32</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod.mexglx</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod.mexmac</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod.mexmaci</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod.mexw32</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod2.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod2.mexglx</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod2.mexmac</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod2.mexmaci</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod2.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod2.mexw32</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod3.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod3.mexw64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/dftoperiod_gen.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/interp_inplace.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/interp_inplace.mexglx</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/interp_inplace.mexmac</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/interp_inplace.mexmaci</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/interp_inplace.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/interp_inplace.mexw32</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/mininrange.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/mininrange.mexglx</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/mininrange.mexmac</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/mininrange.mexmaci</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/mininrange.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/mininrange.mexw32</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/minparabolic.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/minparabolic.mexglx</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/minparabolic.mexmac</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/minparabolic.mexmaci</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/minparabolic.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/minparabolic.mexw32</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rdiff_inplace.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rdiff_inplace.mexglx</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rdiff_inplace.mexmac</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rdiff_inplace.mexmaci</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rdiff_inplace.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rdiff_inplace.mexw32</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsmooth.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsmooth.mexglx</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsmooth.mexmac</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsmooth.mexmaci</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsmooth.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsmooth.mexw32</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsum_inplace.mex</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsum_inplace.mexglx</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsum_inplace.mexmac</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsum_inplace.mexmaci</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsum_inplace.mexmaci64</file>
+      <file>${PROJECT_ROOT}/f0_detection_package/yin_author/private/rsum_inplace.mexw32</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/luweiyang/Desktop/PhD/Stage2" name="AVA_matlab" optional="false">/Users/luweiyang/Desktop/PhD/Stage2/AVA_matlab</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2016a.app</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.11.5</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
