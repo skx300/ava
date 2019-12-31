@@ -1,6 +1,22 @@
 # AVA is an automatic vibrato and portamento detection and analysis tool
 
+AVA is an automatic vibrato and portamento detection and analysis tool. It accepts raw audio and automatically tracks the vibrato and portamento to display their expressive parameters for inspection and further statistical analysis.
 see more [https://luweiyang.com/research/ava-project/]
+
+The applications of AVA include music education and expression analysis, and its outputs provide a useful base for expression synthesis and transformation.
+
+AVA can do:
+
+- on monophonic audio
+- vibrato detection
+- output vibrato rate, extent and sinusoid similarity
+- portamento detection
+- output Logistic-based portamento parameters
+- allow user to correct the detections
+
+AVA can't do
+- on polyphonic audio
+- change the vibrato and portamento directly
 
 AVA-export is the exporeted Matlab-plugin. You could access to source code in other folders.
 
