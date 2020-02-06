@@ -21,5 +21,5 @@ AVA can't do
 AVA-export is the exporeted Matlab-plugin. You could access to source code in other folders.
 
 Citation:
-- Luwei Yang, Khalid Z. Rajab and Elaine Chew. AVA: An Interactive System for Visual and Quantitative Analyses of Vibrato and Portamento Performance Styles, In Proc. of the 17th International Society for Music Information Retrieval Conference, 2016.
-- Luwei Yang, Khalid Z. Rajab and Elaine Chew. Filter Diagonalisation Method for Music Signal Analysis: Frame-wise Vibrato Detection and Estimation, Journal of Mathematics and Music, DOI: 10.1080/17459737.2016.1263897, 2017. 
+- Luwei Yang, Khalid Z. Rajab and Elaine Chew. [AVA: An Interactive System for Visual and Quantitative Analyses of Vibrato and Portamento Performance Styles](https://wp.nyu.edu/ismir2016/wp-content/uploads/sites/2294/2016/07/314_Paper.pdf), In Proc. of the 17th International Society for Music Information Retrieval Conference, 2016.
+- Luwei Yang, Khalid Z. Rajab and Elaine Chew. [Filter Diagonalisation Method for Music Signal Analysis: Frame-wise Vibrato Detection and Estimation](https://luweiyangqm.files.wordpress.com/2017/05/jmm2017_luwei_yang.pdf), Journal of Mathematics and Music, DOI: 10.1080/17459737.2016.1263897, 2017. 
